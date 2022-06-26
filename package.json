@@ -1,6 +1,6 @@
 {
   "name": "mazda-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to use MyMazda services.",
   "homepage": "https://github.com/raphabot/mazda-cli",
   "repository": {
@@ -13,8 +13,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
   },
+  "bin": "index.js",
   "keywords": [
     "mazda",
     "cli",
