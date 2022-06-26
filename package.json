@@ -1,0 +1,33 @@
+{
+  "name": "mazda-cli",
+  "version": "1.0.0",
+  "description": "CLI to use MyMazda services.",
+  "homepage": "https://github.com/raphabot/mazda-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphabot/mazda-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raphabot/mazda-cli/issues"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mazda",
+    "cli",
+    "myMazda"
+  ],
+  "author": "Raphael Bottino",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "inquirer": "^9.0.0",
+    "nconf": "^0.12.0",
+    "node-mymazda": "^1.1.2",
+    "ora": "^6.1.0",
+    "prettyjson": "^1.2.5"
+  }
+}
